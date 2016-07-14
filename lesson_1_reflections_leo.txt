@@ -1,0 +1,29 @@
+Como a visualização de um diff entre duas versões de um arquivo ajuda você a ver o bug que foi introduzido?
+o comando permite observar o que difere nos conteúdos dos arquivos, desta forma, percebe-se com alguma facilidade o que foi alterado e passou a apresentar erro.
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+em algum momento da codificação, existe arquivos que já estavam funcionais, incluindo a utilização de estruturas pouco utilizadas, que podem ser relembradas pelo
+histórico e podendo recuperar versões funcionais para corrigir erros criados posteriormente...
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs?
+Enquanto programador, a consciência de que nem sempre se está alterando o código é real, pode-se ter intervalos longos entre uma alteração e outra, o que levaria a uma
+série de commits sem nenhuma alteração, sem propósito, o salvamento automático, garante que toda alteração será salva em determinado tempo, porém, o salvamento será realizado,
+mas não necessariamente o salvamento correto, poderá ser salvo erros que não se desejassem que estivessem salvos.
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+o controle de versões GIT foi pensando para desenvolvedores, isso está intimamente relacionado a ligação entre vários arquivos, exemplo, uma página html, está intimamente ligada a um 
+conteúdo css, no primeiros as tags das páginas e no outro a descrição das definições da página, ao alterar um quase sempre se altera o outro, todavia, no google docs, o intuito é uma 
+atividade direta em um único arquivo, com conteúdo único, sem vínculos, portanto, sem necessidade de relacionar arquivos.
+
+Como usar os comandos git log e git diff para visualizar o histórico dos arquivos?
+o git log permite ter um review das atualizações, daí a importância da mensagem de commit, ser clara, concisa e curta, dessa forma pela mensagem de commit eu posso localizar facilmente o que pretendo comparar e realizo um git diff, com a versão de interesse para conhecer todas as alterações realizadas, tanto de inserção, quanto de remoção de conteúdo.
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+a possibilidade de retornar os códigos a versões anteriores, permite que o desenvolvedor possua a flexibilidade de continuar desenvolvendo sem medos de perda, visto que os códigos anteriores
+estão protegidos e bem guardados pelo repositório.
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+??
+
+
+
